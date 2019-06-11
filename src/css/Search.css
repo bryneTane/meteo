@@ -1,0 +1,29 @@
+input{
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    height: 50px;
+    width: 300px;
+    margin: 20px !important;
+    background-color: rgb(63, 58, 58);
+    color: aliceblue;
+}
+
+button{
+    height: 50px;
+    width: 80%;
+    margin: 20px;
+    background-color: rgb(63, 58, 58);
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+button:hover{
+    color: black;
+    background-color: aliceblue;
+    border-color: black;
+}
+
+body{
+    background-color: rgb(63, 58, 58);
+}

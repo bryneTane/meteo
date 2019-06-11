@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  font-size: 40px;
+  font-family: sans-serif;
+  background-color: rgb(97, 88, 88);
+  text-align: center;
+  color: aliceblue;
+  height: 70px;
+  padding-top: 20px
+}
+
+.footer{
+  font-family: sans-serif;
+  background-color: rgb(97, 88, 88);
+  text-align: center;
+  color: aliceblue;
+  height: 40px;
+  padding-top: 20px
+}
+
+.tabContent{
+  display: flex;
+  background-color: rgb(63, 58, 58);
+  min-height: 400px;
+  text-align: center !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  width: 100%;
+  background-color: rgb(63, 58, 58);
+  text-align: center;
+  border-bottom-color: aliceblue !important;
+}
+
+.am-tabs-default-bar-tab-active {
+  color: aliceblue !important;
+}

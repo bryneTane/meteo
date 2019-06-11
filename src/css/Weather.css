@@ -1,0 +1,27 @@
+.meteo{
+    background-color: rgb(97, 88, 88);
+    width: 80%;
+    margin: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 20px;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    height: 300px;
+}
+
+h3{
+    display: inline-block;
+}
+
+img{
+    display: inline-block;
+}
+
+.temp{
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+}
