@@ -1,29 +1,26 @@
 input{
     border: none;
-    border-bottom: 1px solid aliceblue;
+    border-bottom: 1px solid #124191;
     height: 50px;
     width: 300px;
     margin: 20px !important;
-    background-color: rgb(63, 58, 58);
-    color: aliceblue;
+    color: #124191;
+    background-color: #f5f5f9;
 }
 
 button{
     height: 50px;
     width: 80%;
     margin: 20px;
-    background-color: rgb(63, 58, 58);
-    border: 2px solid aliceblue;
+    border: 2px solid #124191;
     border-radius: 10px;
-    color: aliceblue;
+    color: #124191;
+    background-color: white;
 }
 
 button:hover{
     color: black;
-    background-color: aliceblue;
-    border-color: black;
-}
-
-body{
-    background-color: rgb(63, 58, 58);
+    background-color: #124191;
+    border-color: white;
+    color: white;
 }
